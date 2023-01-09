@@ -1,0 +1,68 @@
+body{
+    background-image: url(background.png);
+}
+
+h1{
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+#naglowek{
+    align-items: center;
+    background-color: gray;
+    float: top;
+    height: 50px;
+}
+
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 218px;
+    display: block;
+}
+
+#o1 {
+    left: 0px;
+    width: 218px;
+    background: url('sport/obrazek.png') 0 0;
+}
+
+#o2 {
+    left: 218px;
+    width: 218px;
+    background: url('sport/obrazek.png') -218px 0;
+}
+
+#o3 {
+    left: 436px;
+    width: 280px;
+    background: url('sport/obrazek.png') -436px 0;
+}
+
+#o4 {
+    left: 654px;
+    width: 280px;
+    background: url('sport/obrazek.png') -654px 0;
+}
+
+#o5 {
+    left: 872px;
+    width: 280px;
+    background: url('sport/obrazek.png') -872px 0;
+}
+
+#o6 {
+    left: 1090px;
+    width: 280px;
+    background: url('sport/obrazek.png') -1090px 0;
+}

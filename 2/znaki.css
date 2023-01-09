@@ -1,0 +1,29 @@
+body{
+    background-image: url(background.png);
+}
+
+h1
+{
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+#naglowek
+{
+    align-items: center;
+    background-color: darkmagenta;
+    color: white;
+    float: top;
+    height: 50px;
+}
+
+#navlist li {
+    list-style: none;
+    width: 90px;
+    height: 90px;
+}
+
+#navlist li a {
+    height: 561px;
+    display: block;
+}
